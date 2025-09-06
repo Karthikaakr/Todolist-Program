@@ -1,3 +1,16 @@
+github ---- http://localhost:5173/
+
+This program is a React User Form with CRUD operations and Local Storage.
+
+Users can add, edit, and delete entries (Name, Email, Phone, Country).
+
+Data is saved in localStorage, so it stays even after refreshing the page.
+
+Edit mode allows updating an existing record instead of adding a new one.
+
+Delete button removes a record, and if the one being edited is deleted, inputs reset.
+
+👉 In short: It’s a simple user management app built with React hooks (useState, useEffect) and localStorage persistence.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
